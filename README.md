@@ -52,7 +52,7 @@ git clone https://github.com/zzhh84263-creator/UAV-dataset.git
 3. Load a `.mat` file in MATLAB and visualize signal coverage, for example:
 
 ```matlab
-load('dataset1/result_TJ_001.mat');
+load('dataset2/result_TJ_001.mat');
 imagesc(Longitudes, Latitudes, SignalStrength);
 colorbar;
 xlabel('Longitude'); ylabel('Latitude');
